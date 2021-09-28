@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Padauk";
+  src: url(fonts/Padauk-Regular.ttf) format("truetype"),
+  url(fonts/Padauk-Bold.ttf) format("truetype");
+}
+$font-family-sans-serif : Padauk, sans-serif;
+$primary : green;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//custom
